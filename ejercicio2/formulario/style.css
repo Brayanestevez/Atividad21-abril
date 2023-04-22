@@ -1,0 +1,117 @@
+/* Estilo del cuerpo para la imagen */
+body{
+    background-image: url(imagen1.jpg);
+   background-repeat: no-repeat;
+   background-size :cover ;
+}
+/*estilo de el formulario*/
+.form {
+  
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #47366b;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilo del encabezado */
+
+.form h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+/* Estilo de los campos de entrada */
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type=""],
+.form input[type="tel"],
+.form input[type="number"],
+.form input[type="url"],
+.form textarea,
+.form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.formulario__campo {
+    border: 1rem solid var(--primarioOscuro);
+    background-color: transparent;
+    color: var(--blanco);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    appearance: none;
+}
+
+.formulario__submit {
+    background-color: var(--secundario);
+    border: none;
+    font-size: 9rem;
+    font-family: var(--fuentePrincipal);
+    padding: 2rem;
+    transition: background-color .3s ease;
+    grid-column: 1 / 3;
+}
+
+.formulario__submit:hover {
+    cursor: pointer;
+    background-color: var(--secundarioOscuro);
+}
+
+
+/* Estilo del botón de envío */
+
+.form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 48.5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*estilo de titulo*/
+.titulo{
+    text-align: center;
+    color: #fff;
+    
+}
+
+/* Estilo del pie de página */
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/*estilo de la letra*/
+.parrafo{
+    font-weight: bold;
+}
+.descripcion{
+    font-weight: bold;
+}
+
